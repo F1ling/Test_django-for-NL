@@ -21,6 +21,35 @@
 Django==4.2.7
 djangorestframework==3.14.0
 ```
+**Запуск проекта**
+```
+# Создание виртуального окружения
+python -m venv venv
+
+# Активация виртуального окружения
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+# Установка зависимостей
+pip install django djangorestframework
+```
+```
+# Создание миграций
+python manage.py makemigrations
+
+# Применение миграций
+python manage.py migrate
+
+python manage.py createsuperuser
+# Следуйте инструкциям для создания учетной записи
+
+#Старт проекта
+python manage.py runserver
+
+```
+
 
 
 
